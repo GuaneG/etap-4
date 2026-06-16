@@ -1,6 +1,6 @@
 # Etap 4 — ETL'i Containerize Et (Docker)
 
-> Yol haritamın 4. etabı. Etap 3'teki ETL projesini Docker'a taşıyorum. Tek komutla hem veritabanı hem ETL ayağa kalkıyor.
+> Yol haritamın 4. etabı (EPAM içinde). Docker'ı [EPAM Campus — Cloud & DevOps](https://campus.epam.com/en/training/5329) programının "Containerization: Docker Practice" modülünden öğrenip, Etap 3'teki ETL projesini Docker'a taşıyorum. Tek komutla hem veritabanı hem ETL ayağa kalkıyor.
 
 `docker compose up` deyince önce PostgreSQL kalkıyor, sonra ETL scripti çalışıp veriyi yazıyor. Veri, volume sayesinde `down`/`up` sonrası korunuyor.
 
@@ -15,6 +15,10 @@ docker-compose.yml
 - **Docker** + **docker compose**
 - Resmi `postgres` image'i
 - Etap 3'ün Python ETL scripti
+
+## Kaynaklar
+- **Ana kurs:** EPAM Cloud & DevOps — "Containerization: Docker Practice" modülü (Etap 2 ile aynı program)
+- **İstersen destek (opsiyonel):** [Docker Get Started](https://docs.docker.com/get-started/) · [freeCodeCamp Docker Tutorial (video)](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ## Çalıştırma
 ```bash
